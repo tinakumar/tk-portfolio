@@ -1,0 +1,76 @@
+    <div class="container">
+       <!-- Header -->
+       <header>
+        <div class="row">
+         <div class="col-md-5 col-sm-5">
+          <div class="hidden-xs">
+             <div class="lnav">
+              <!-- Left navigation. Replace # with links -->
+              <%= link_to "Home", root_path %>
+              <%= link_to "Contact", welcomes_contact_path %>
+             </div>
+          </div>
+         </div>
+         <div class="col-md-2 col-sm-2">
+          <!-- Logo -->
+          <div class="logo">
+             <div class="name">
+              <p class="stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+              <!-- Replace # with your site link. Replace "Alejandra" with your site name. -->
+              <p class="namey"><b><a href="index.html">Tina Kumar</a></b></p>
+              <p class="stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+             </div>
+          </div>
+         </div>
+         <div class="col-md-5 col-sm-5">
+          <div class="rnav">
+             <div class="mobily visible-xs">
+
+             </div>
+             <!-- Right navigation. Replace # with links -->
+             <%= link_to "Portfolio", portfolios_path %>
+             <%= link_to "Blog", blogs_path %>
+
+          </div>
+         </div>
+        </div>
+       </header>
+
+       <hr />
+
+          <!-- Blog -->
+       <div class="portfolio">
+        <div class="row">
+         <div class="col-md-4 col-sm-4">
+          <!-- Blog title -->
+          <h2>Portfolio</h2>
+         </div>
+         <div class="col-md-8 col-sm-8">
+          <!-- Blog para -->
+          <p>Below you'll find some of the things I've been working on. If you'd like to learn more, please feel free to reach out.</p>
+         </div>
+        </div>
+        <hr />
+
+<h1 align="center">Coming Soon!</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @portfolios.each do |portfolio| %>
+      <tr>
+        <td><%= link_to 'Show', portfolio %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Title here -->
+    <title>Tina M Kumar</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your,Keywords">
+    <meta name="author" content="ResponsiveWebInc">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <!-- Isotope and Pretty Photo CSS -->
+    <link href="assets/isotype.css" rel="stylesheet" >
+    <link href="assets/prettyPhoto.css" rel="stylesheet">
+    <!-- Font awesome CSS -->
+    <link href="assets/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="#">
+  </head>
+
+  <body>
+
+    <div class="container">
+       <!-- Header -->
+       <header>
+        <div class="row">
+         <div class="col-md-5 col-sm-5">
+          <div class="hidden-xs">
+             <div class="lnav">
+              <!-- Left navigation. Replace # with links -->
+              <%= link_to "Home", root_path %>
+              <%= link_to "Contact", welcomes_contact_path %>
+             </div>
+          </div>
+         </div>
+         <div class="col-md-2 col-sm-2">
+          <!-- Logo -->
+          <div class="logo">
+             <div class="name">
+              <p class="stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+              <!-- Replace # with your site link. Replace "Alejandra" with your site name. -->
+              <p class="namey"><b><a href="#">Tina Kumar</a></b></p>
+              <p class="stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+             </div>
+          </div>
+         </div>
+         <div class="col-md-5 col-sm-5">
+          <div class="rnav">
+             <div class="mobily visible-xs">
+
+             </div>
+             <!-- Right navigation. Replace # with links -->
+             <%= link_to "Portfolio", portfolios_path %>
+             <%= link_to "Blog", blogs_path %>
+
+          </div>
+         </div>
+        </div>
+       </header>
+
+       <hr />
+
+       <!-- Hero -->
+
+       <div class="hero">
+        <div class="row">
+         <div class="col-md-12 col-sm-12">
+          <!-- Big title. Add class "color" for pink color. -->
+          <h1>Web Design <span class="color">&</span> Development</h1>
+          <!-- Another title -->
+          <h2 class="color">Full Stack Developer</h2>
+
+
+          <p>I'm a developer looking for opportunities in the Seattle area. Technologies I've used: Ruby, Rails, Sinatra, Postgres, JavaScript, jQuery and much more! I'm a graduate of the <a href="http://www.starterleague.com/", target ="_blank" >Starter League</a> bootcamp in Chicago and <a href="http://www.codefellows.org/", target="_blank">Code Fellows</a> Rails bootcamp here in Seattle. I'm also the National Meetup Coordinator for <a href="http://hackthepeople.org/", target="_blank">Hack the People</a>, an organization I'm very passionate about. Hack the People brings tech mentors and mentees together in small group settings giving people a chance to make real connections and develop relationships.</p>
+          <div class="rounds">
+             <!-- Features circles. Edit below details as per your need. -->
+             <div class="round"><%= link_to "Blog", blogs_path %></div>
+             <div class="round"><%= link_to "Portfolio", portfolios_path %></div>
+             <div class="round"><%= link_to "Contact", welcomes_contact_path %></div>
+          </div>
+         </div>
+        </div>
+       </div>
+
+       <hr />
+
+          <!-- Features -->
+      <!-- Default Block Heading -->
+      <div class="default-heading">
+        <div class="row">
+
+            <!-- Service title -->
+            <h2 align="center">Skills</h2>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <!-- Features Items -->
+          <div class="feature-item">
+            <!-- Icon -->
+            <i class="fa fa-code f-icon"></i>
+            <!-- Heading -->
+            <h4 class="caps">FrontEnd</h4>
+            <!-- Paragraph -->
+            <p class="small arial">HTML, CSS, jQuery, JavaScript, EmberJS</p>
+            <div class="border"></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <!-- Features Items -->
+          <div class="feature-item">
+            <!-- Icon -->
+            <i class="fa fa-laptop f-icon"></i>
+            <!-- Heading With Icon -->
+            <h4 class="caps">BackEnd</h4>
+            <!-- Paragraph -->
+            <p class="small arial">Ruby on Rails</p>
+            <div class="border"></div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <!-- Features Items -->
+          <div class="feature-item">
+            <!-- Icon -->
+            <i class="fa fa-gear f-icon"></i>
+            <!-- Heading With Icon -->
+            <h4 class="caps">API</h4>
+            <!-- Paragraph -->
+            <p class="small arial">Building APIs in Rails and Sinatra</p>
+            <div class="border"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Features End -->
+      <hr />
+       <!-- All -->
+
+       <div class="all">
+        <div class="row">
+         <div class="col-md-8 col-sm-8">
+          <!-- Title. User the class "bot-bor" to add underline. -->
+          <h3 class="color caps"><span class="bot-bor">Projects - Coming soon!</span></h3>
+          <!-- Para -->
+          <p>Here are some of the apps that I have built.</p>
+          <div class="pics">
+             <!-- Latest works with prettyPhoto light box. Provide link of full size image in <a> tag. Provide link of thumbnail image in <img> tag. -->
+             <a href="assets/portfolio/1.jpg" class="prettyphoto"><img src="assets/portfolio/1.jpg" alt="" /></a>
+
+             <a href="assets/portfolio/2.jpg" class="prettyphoto"><img src="assets/portfolio/2.jpg" alt="" /></a>
+             <a href="assets/portfolio/3.jpg" class="prettyphoto"><img src="assets/portfolio/3.jpg" alt="" /></a>
+
+          </div>
+         </div>
+         <div class="col-md-4 col-sm-4">
+          <h4 class="color"><span class="bot-bor">Future Posts - Coming Soon!</span></h4>
+          <div class="widget">
+             <!-- Latest blog posts -->
+             <ul>
+              <li><a href="#"><i class="fa fa-star"></i> Building a Blog with Rails </a></li>
+              <li><a href="#"><i class="fa fa-star"></i> Creating a simple API using Sinatra </a></li>
+              <li><a href="#"><i class="fa fa-star"></i> An Introduction to Go </a></li>
+              <li><a href="#"><i class="fa fa-star"></i> From Rails to Django </a></li>
+              <li><a href="#"><i class="fa fa-star"></i> Django meets Ember </a></li>
+             </ul>
+          </div>
+
+         </div>
+        </div>
+       </div>
+
+       <hr />
+
+       <div class="cta">
+        <div class="row">
+         <div class="col-md-6 col-sm-6">
+          <!-- Big title -->
+          <h2>Want to Learn More<span class="color">?</span></h2>
+         </div>
+         <div class="col-md-6 col-sm-6 right-p">
+          <!-- Para -->
+          <p>Please contact me via the buttons below. Thanks for checking out my site!</p>
+         </div>
+        </div>
+       </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+         <div>
+          <!-- Copyright info and links -->
+          <p>Copyright &copy; <a href="#">Tina Kumar</a></p>
+          <p><%= link_to "Contact", welcomes_contact_path %> | <%= link_to "Blog", blogs_path%> | <%= link_to "Work", portfolios_path%></p>
+         </div>
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+         <div class="socials">
+          <!-- Social media icons. Replace # with your profile links -->
+          <a href="https://github.com/tinakumar" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://twitter.com/tinamkumar" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/tinakumar" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="mailto:tinakumar07@gmail.com" ><i class="fa fa-envelope-o"></i></a>
+         </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      </div>
+    </footer>
+
+
+    <!-- Scroll to top -->
+    <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span>
+
+
+    <!-- Javascript files -->
+    <!-- jQuery -->
+    <script src="assets/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/bootstrap.min.js"></script>
+    <!-- Isotope and Pretty Photo JS -->
+    <script src="assets/jquery.prettyPhoto.js"></script>
+    <script src="assets/isotope.js"></script>
+    <!-- Respond JS for IE8 -->
+    <script src="assets/respond.min.js"></script>
+    <!-- HTML5 Support for IE -->
+    <script src="assets/html5shiv.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/custom.js"></script>
+  </body>
+</html>

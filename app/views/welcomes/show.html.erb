@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Title here -->
+    <title>Contact Us - Alejandra</title>
+    <!-- Description, Keywords and Author -->
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your,Keywords">
+    <meta name="author" content="ResponsiveWebInc">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <!-- Isotope and Pretty Photo CSS -->
+    <link href="assets/isotype.css" rel="stylesheet" >
+    <link href="assets/prettyPhoto.css" rel="stylesheet">
+    <!-- Font awesome CSS -->
+    <link href="assets/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="assets/style.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="#">
+  </head>
+
+  <body>
+
+     <div class="container">
+       <!-- Header -->
+       <header>
+        <div class="row">
+         <div class="col-md-5 col-sm-5">
+          <div class="hidden-xs">
+             <div class="lnav">
+              <!-- Left navigation. Replace # with links -->
+              <%= link_to "Home", root_path %>
+              <%= link_to "Contact", welcomes_contact_path %>
+             </div>
+          </div>
+         </div>
+         <div class="col-md-2 col-sm-2">
+          <!-- Logo -->
+          <div class="logo">
+             <div class="name">
+              <p class="stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+              <!-- Replace # with your site link. Replace "Alejandra" with your site name. -->
+              <p class="namey"><b><a href="index.html">Tina Kumar</a></b></p>
+              <p class="stars"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
+             </div>
+          </div>
+         </div>
+         <div class="col-md-5 col-sm-5">
+          <div class="rnav">
+             <div class="mobily visible-xs">
+
+             </div>
+             <!-- Right navigation. Replace # with links -->
+             <%= link_to "Portfolio", portfolios_path %>
+             <%= link_to "Blog", blogs_path %>
+
+          </div>
+         </div>
+        </div>
+       </header>
+
+       <hr />
+
+
+        <!-- Staffs area -->
+      <div class="staffs">
+        <div class="row">
+        <div class="row"  align="center">
+          <div class="col-md-4 col-sm-4">
+          <%= image_tag("IMG_0706.JPG", :class => "profile-pic") %>
+        </div>
+          <div class="col-md-8 col-sm-38">
+     <p> I'm a developer looking for opportunities in the Seattle area. Technologies I've used: Ruby, Rails, Sinatra, Postgres, JavaScript, jQuery and much more! I just wrapped up my internship with <a href="https://pawzii.com/", target ="_blank">Pawzii,</a> an organization dedicated to improving the lives of pets and the feral animal population. It was a great experience and I'm excited to continue my journey into software and web development. </p>
+  </div>
+  </div>
+  <hr/>
+
+
+   <!-- Footer -->
+    <footer>
+      <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+         <div>
+          <!-- Copyright info and links -->
+          <p>Copyright &copy; <a href="#">Tina Kumar</a></p>
+          <p><%= link_to "Contact", welcomes_contact_path %> | <%= link_to "Blog", blogs_path%> | <%= link_to "Work", portfolios_path%></p>
+         </div>
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+         <div class="socials">
+          <!-- Social media icons. Replace # with your profile links -->
+          <a href="https://github.com/tinakumar" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://twitter.com/tinamkumar" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/tinakumar" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="mailto:tinakumar07@gmail.com" ><i class="fa fa-envelope-o"></i></a>
+         </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      </div>
+    </footer>
+
+
+    <!-- Scroll to top -->
+    <span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span>
+
+
+    <!-- Javascript files -->
+    <!-- jQuery -->
+    <script src="assets/jquery.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/bootstrap.min.js"></script>
+    <!-- Isotope and Pretty Photo JS -->
+    <script src="assets/jquery.prettyPhoto.js"></script>
+    <script src="assets/isotope.js"></script>
+    <!-- Respond JS for IE8 -->
+    <script src="assets/respond.min.js"></script>
+    <!-- HTML5 Support for IE -->
+    <script src="assets/html5shiv.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/custom.js"></script>
+  </body>
+</html>
